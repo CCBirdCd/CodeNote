@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2586d0d796aa9a1a",
+        "id": "5b464488f88c91ab",
         "type": "tabs",
         "children": [
           {
-            "id": "80be8ea540f1e316",
+            "id": "f56b3bd877e71dea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "入门使用手册.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,12 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,17 +146,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "80be8ea540f1e316",
+  "active": "686972c9c75c20b2",
   "lastOpenFiles": [
+    "个人文件/不重要密码.md",
+    "个人文件",
+    "编程/编码/Python.md",
+    "编程/编码/Wwise引擎.md",
+    "编程/编码/c++.md",
+    "编程/编码/UE 接口.md",
+    "编程/编码/不重要密码.md",
+    "编程/编码/Puerts.md",
+    "编程/编码",
+    "部分用法.md",
+    "编程/UE/功能模块/VS联编.md",
+    "编程/UE/功能模块/UE基于胶囊体移动的物理载具模拟.md",
+    "编程/UE/功能模块/UE 实现2D动画.md",
+    "编程/UE/功能模块/物理模拟载具制作规范.md",
+    "编程/UE/功能模块/载具同步.md",
+    "入门使用手册.md",
+    "相机.md",
+    "编程/UE/功能模块/TextureStreaming.md",
+    "编程/UE/功能模块/游戏坠落机制.md",
+    "编程/UE/功能模块/SQLite3接入UE.md",
+    "编程/UE/功能模块/UE5 精准打击.md",
+    "编程/UE/功能模块/Niagara基础属性介绍.md",
+    "编程/UE/功能模块/特效池(cascade).md",
+    "编程/UE/功能模块/设置python环境变量.md",
+    "编程/UE/功能模块/相机.md",
+    "编程/UE/功能模块/角色动画相关.md",
+    "编程/UE/功能模块/CommonUI.md",
+    "编程/UE/功能模块/Commandlet vs调试方式.md",
+    "编程/UE/功能模块",
+    "Image/格式工厂混流 LL_80.496+星球重启 1.mp4",
+    "Image/1706843919407 1.mp4",
+    "Image/1706841994406 1.mp4",
+    "Image/格式工厂混流 LL_80.496+星球重启.mp4",
+    "Image/1706843919407.mp4",
+    "Image/1706841994406.mp4",
     "Image/Pasted image 20240202101149.png",
     "Image/Pasted image 20240201205830.png",
-    "入门使用手册.md",
     "Image",
-    "Pasted image 20240201205517.png",
-    "编程/UE/TEST.md",
-    "编程/UE",
-    "未命名 1.md",
-    "未命名.md",
-    "编程"
+    "Pasted image 20240201205517.png"
   ]
 }
