@@ -133,7 +133,7 @@ UFUNCTION(BlueprintCallable, Category="Damage")
 
 <a name="57c2062e"></a>
 ### 事件(定义、分发、绑定)
-> - 蓝图实现:<br />① 定义事件：在蓝图编辑器左下角 Event Dispatchers 点击 + 添加事件，添加完成后拖拽该事件到UI上选择 call 在合适时机调用<br />![](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/ActorCommunication/EventDispatcherQuickStart/EventDispatcherQuickStart-BP/image_10.png#id=pBt9x&originHeight=53&originWidth=382&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />![](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/ActorCommunication/EventDispatcherQuickStart/EventDispatcherQuickStart-BP/image_11.png#id=ZtUZ4&originHeight=239&originWidth=400&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />② 绑定事件:从节点中拖出一条引线，然后搜索并选择 Bind Event to XXXXX<br />在 细节（Details） 面板上，点击 变量类型（Variable Type） 下拉菜单，然后搜索并选择 BP_BossDied 的 对象引用（Object Reference）。勾选 实例可编辑（Instance Editable） 复选框。<br />![](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/ActorCommunication/EventDispatcherQuickStart/EventDispatcherQuickStart-BP/image_29.png#id=R84oH&originHeight=224&originWidth=515&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />![](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/ActorCommunication/EventDispatcherQuickStart/EventDispatcherQuickStart-BP/image_33.png#id=j2gIS&originHeight=272&originWidth=625&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+> - 蓝图实现:<br />① 定义事件：在蓝图编辑器左下角 Event Dispatchers 点击 + 添加事件，添加完成后拖拽该事件到UI上选择 call 在合适时机调用<br />![](media/image_10.png)<br />![](media/image_11.png)<br />② 绑定事件:从节点中拖出一条引线，然后搜索并选择 Bind Event to XXXXX<br />在 细节（Details） 面板上，点击 变量类型（Variable Type） 下拉菜单，然后搜索并选择 BP_BossDied 的 对象引用（Object Reference）。勾选 实例可编辑（Instance Editable） 复选框。<br />![](media/image_29.png)<br />![](media/image_33.png)
 
 
 <a name="J6eZf"></a>
@@ -146,11 +146,11 @@ UFUNCTION(BlueprintCallable, Category="Damage")
 3. 设置actor是否可以碰撞：SetActorEnableCollision
 <a name="wl5Da"></a>
 ### 蓝图函数
-1.传值 和 传引用  区别在于 输入参数是否勾选  Pass-by-Reference， 如果想要在蓝图函数内改变<br />传入的变量，则需要勾选该项，勾选后节点变成菱形标识为引用，修改参数的节点为  set by ref <br />![蓝图函数.PNG](https://cdn.nlark.com/yuque/0/2022/png/26747865/1647504326448-6575cb04-ac94-443e-8cd1-18b3c7e852fd.png#averageHue=%234b4b4a&clientId=ucefa9e33-f0f8-4&from=ui&id=u419aed47&originHeight=314&originWidth=535&originalType=binary&ratio=1&rotation=0&showTitle=false&size=30935&status=done&style=none&taskId=u85380a06-f71f-4670-af48-588f72952fb&title=)
+1.传值 和 传引用  区别在于 输入参数是否勾选  Pass-by-Reference， 如果想要在蓝图函数内改变<br />传入的变量，则需要勾选该项，勾选后节点变成菱形标识为引用，修改参数的节点为  set by ref <br />![蓝图函数.PNG](media/蓝图函数.PNG.png)
 
 <a name="r7ftU"></a>
 ### 射线检测
-LineTraceByChannel<br />![射线检测.PNG](https://cdn.nlark.com/yuque/0/2022/png/26747865/1647574028447-bc03dc0e-a9f4-426d-bfa7-227494403026.png#averageHue=%23302e2b&clientId=ucefa9e33-f0f8-4&from=ui&id=u4649fe66&originHeight=397&originWidth=944&originalType=binary&ratio=1&rotation=0&showTitle=false&size=115212&status=done&style=none&taskId=u1c2b8586-a659-4eab-9c95-70328689f33&title=)
+LineTraceByChannel<br />![射线检测.PNG](media/射线检测.PNG.png)
 <a name="kKjrA"></a>
 ## c++接口
 <a name="eMe6d"></a>
@@ -159,13 +159,13 @@ LineTraceByChannel<br />![射线检测.PNG](https://cdn.nlark.com/yuque/0/2022/p
 
 <a name="OCgEe"></a>
 ### 添加 Component
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1654071153413-270b5e16-082c-4ae4-845c-f670db908fbf.png#averageHue=%23fcfbfa&clientId=ud6a7b7c0-c044-4&from=paste&height=373&id=u6de35a79&originHeight=373&originWidth=865&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22468&status=done&style=none&taskId=u5d998919-b48c-4da8-8c14-8210541b1ea&title=&width=865)
+![image.png](media/image-15.png)
 
 <a name="U58W7"></a>
 ### 加载 资源、类、蓝图
 UParticleSystem* commonParticleAsset = LoadObject<UParticleSystem>(NULL, TEXT("'/Game/StarterContent/Particles/P_Fire.P_Fire'"));<br />if (commonParticleAsset)<br />{<br />   ProjectileParticleCmpt->SetTemplate(commonParticleAsset);<br />}
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1654164799728-600e7a4e-2741-43bb-aad3-3060090b3982.png#averageHue=%23fcfbfa&clientId=u1fee22bf-ab40-4&from=paste&height=343&id=ue7a33259&originHeight=343&originWidth=884&originalType=binary&ratio=1&rotation=0&showTitle=false&size=24325&status=done&style=none&taskId=u26f5929b-6c04-4cb7-a76a-217898a5903&title=&width=884)
+![image.png](media/image-16.png)
 <a name="JCL8q"></a>
 #### 代码方式如何Spawn蓝图类
 第一种：/

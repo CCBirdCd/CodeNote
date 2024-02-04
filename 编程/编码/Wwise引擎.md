@@ -28,10 +28,10 @@ Wwise有两种SoundBank，Init bank和资源bank。默认情况下Init bank不�
 ## 功能点
 <a name="a9nyN"></a>
 ### 单个和发声位和多个发声位
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651717141567-73a2b9d5-482f-40f8-8a0f-b783f3f912a3.png#clientId=u6f72f30d-de8b-4&from=paste&height=961&id=ub084e55e&originHeight=961&originWidth=1544&originalType=binary&ratio=1&rotation=0&showTitle=false&size=167504&status=done&style=none&taskId=u84f86d03-deea-46e9-a93e-15ca67b2325&title=&width=1544)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651717185897-35d27829-b1be-4d80-8bf7-51cd26880333.png#clientId=u6f72f30d-de8b-4&from=paste&height=971&id=ufcd8ccd5&originHeight=971&originWidth=1547&originalType=binary&ratio=1&rotation=0&showTitle=false&size=87088&status=done&style=none&taskId=u4ab4885b-ec84-49c6-baf9-748de27da89&title=&width=1547)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651717270310-e44bdf1c-73fe-4d61-a20b-261e6d9169b5.png#clientId=u6f72f30d-de8b-4&from=paste&height=913&id=uc8cbbdd2&originHeight=913&originWidth=1548&originalType=binary&ratio=1&rotation=0&showTitle=false&size=195393&status=done&style=none&taskId=u9f52a8fd-494d-43aa-8a89-10615c41666&title=&width=1548)
+![image.png](media/image-14.png)<br />![image.png](media/image-7.png)<br />![image.png](media/image-12.png)
 <a name="AARCK"></a>
 ### 声音切换组（Switch Group）
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651718409806-335a1ffa-7d81-420e-a46e-09c37b00d9fe.png#clientId=u6f72f30d-de8b-4&from=paste&height=391&id=u66691318&originHeight=391&originWidth=1546&originalType=binary&ratio=1&rotation=0&showTitle=false&size=58559&status=done&style=none&taskId=u9dd935ec-6f0c-4d40-a1e6-0241fae6cfb&title=&width=1546)
+![image.png](media/image-4.png)
 <a name="AKZB4"></a>
 ### 可以直接在动画序列添加 AnimNotify_AKEvent
 通过配置 Notify 的 Event，可以通过发送 Event 来触发某一固定声音，缺点是没办法在播放声音之间切换 SwitchGroup(即 无法满足多态下的声音切换，需要自己定义 AnimNotify 实现切换和 postEvent 事件)
@@ -43,30 +43,30 @@ Unreal Integration 2019.2 中针对素材管理实施了一些重大改进，包
 
 <a name="iIxMK"></a>
 #### 2、在Unreal工程中集成Wwise
-创建unreal工程，在Wwise Launcher中江Wwise工程集成到Unreal工程中，集成成功后，可以在Unreal工程的ProjectSettings界面看到新增的Wwise模块<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915313698-992435b1-596b-4095-a91b-7b77a6884ef4.png#clientId=u80daa4f8-3763-4&from=paste&id=u74d99a4d&originHeight=284&originWidth=232&originalType=url&ratio=1&rotation=0&showTitle=false&size=9906&status=done&style=none&taskId=u0ded0076-cc76-494c-acb7-853f14856b9&title=)
+创建unreal工程，在Wwise Launcher中江Wwise工程集成到Unreal工程中，集成成功后，可以在Unreal工程的ProjectSettings界面看到新增的Wwise模块<br />![image.png](media/image-3.png)
 
 
 启用 Use Event—Based Packaging，这里的Wwise Sound Data Folder是Unreal用于存放Wwise相关资源的文件夹
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915322708-61915c13-6434-4f65-8347-6bb27000f17e.png#clientId=u80daa4f8-3763-4&from=paste&id=ueb8e43f7&originHeight=454&originWidth=1029&originalType=url&ratio=1&rotation=0&showTitle=false&size=53946&status=done&style=none&taskId=uf3e80800-8704-4eca-ba63-2d40b4c3eb6&title=)
+![image.png](media/image-9.png)
 
 启用Enable Automatic Asset Synchronization，可以启用Auto Connect to WAAPI。这里的Auto Connect to WAAPI若启用了，则每次在 Wwise 中创建对象时都会创建对应的 Unreal 素材。同样地，在重命名、删除、移动 Wwise 对象或重新设置父对象时，会立刻反映到 Unreal Content Browser 中。在禁用 WAAPI 的情况下，将只在保存 Wwise 工程时执行此同步操作。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915329582-b85e8dd2-8e66-4712-abff-ffc619c5011b.png#clientId=u80daa4f8-3763-4&from=paste&id=ufc490da5&originHeight=381&originWidth=805&originalType=url&ratio=1&rotation=0&showTitle=false&size=39790&status=done&style=none&taskId=u53c47ca0-e773-4412-8830-dfc00c625d6&title=)
+![image.png](media/image-11.png)
 
 当上述选项设置完毕后，在Wwise中创建的Event会自动同步到Unreal的Wwise Sound Data Folder中
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915336351-6ec29fb1-6c86-494a-972a-b8dae50cb74b.png#clientId=u80daa4f8-3763-4&from=paste&id=ud30384ee&originHeight=109&originWidth=284&originalType=url&ratio=1&rotation=0&showTitle=false&size=6698&status=done&style=none&taskId=u824159a4-e0cd-4fd6-9adc-ca4eca4ccc5&title=)	![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915340681-dd330396-efc8-4928-b588-6e248e4916a3.png#clientId=u80daa4f8-3763-4&from=paste&id=u9552e295&originHeight=168&originWidth=843&originalType=url&ratio=1&rotation=0&showTitle=false&size=29408&status=done&style=none&taskId=u3dde6af3-b3fe-483d-a8a9-c987cadd1fa&title=)
+![image.png](media/image.png)	![image.png](media/image-13.png)
 
 <a name="wKm8H"></a>
 #### 3、在关卡中引用AkAudioEvent对象
 在Unreal中创建与Wwise中同名的SoundBank，在Unreal中绑定Event和SoundBank
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915351701-e7d7b3e1-df53-49e2-a181-4898c6aa7ad5.png#clientId=u80daa4f8-3763-4&from=paste&id=uc49e3789&originHeight=181&originWidth=333&originalType=url&ratio=1&rotation=0&showTitle=false&size=14659&status=done&style=none&taskId=uc9a2f947-3f97-4b2d-b68f-d80071ee385&title=)![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915356568-6310e154-f078-43e1-9d91-a4d98dfef480.png#clientId=u80daa4f8-3763-4&from=paste&id=uce01c86b&originHeight=164&originWidth=370&originalType=url&ratio=1&rotation=0&showTitle=false&size=7899&status=done&style=none&taskId=u800e4818-9684-4c85-bf76-b57502db6cc&title=)
+![image.png](media/image-2.png)![image.png](media/image-1.png)
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915363390-6ec9887e-ca59-4dc6-b24e-f0dd05e84290.png#clientId=u80daa4f8-3763-4&from=paste&id=u6356c0bc&originHeight=813&originWidth=1120&originalType=url&ratio=1&rotation=0&showTitle=false&size=392228&status=done&style=none&taskId=ufb89c673-d29e-4559-b37a-bf4f2faa491&title=)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915375405-78c2935f-d718-4b6c-8741-98d3b82e5e8d.png#clientId=u80daa4f8-3763-4&from=paste&id=u5c4b2625&originHeight=236&originWidth=329&originalType=url&ratio=1&rotation=0&showTitle=false&size=39705&status=done&style=none&taskId=u6c6b31db-dfc5-4c64-915a-69d1e13b759&title=)<br />在Wwise中Generate SoundBank
+![image.png](media/image-10.png)<br />![image.png](media/image-5.png)<br />在Wwise中Generate SoundBank
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915384929-0ba626a1-fda9-42ca-8244-7d048e306b70.png#clientId=u80daa4f8-3763-4&from=paste&id=ueff630f6&originHeight=261&originWidth=1417&originalType=url&ratio=1&rotation=0&showTitle=false&size=30592&status=done&style=none&taskId=uece1052c-8b9b-4284-bec1-913847f3c47&title=)
+![image.png](media/image-8.png)
 
 在unreal中build-Generate Sound Data，如果在wwise中为Event绑过Audio，现在在unreal中play event可以听到对应的Audio声音。
 
@@ -74,6 +74,6 @@ Unreal Integration 2019.2 中针对素材管理实施了一些重大改进，包
 #### 4、测试
 在关卡蓝图中进行测试
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26747865/1651915266197-d81ce121-b8c9-4f15-a915-626f9057b1fd.png#clientId=u80daa4f8-3763-4&from=paste&id=u1407309e&originHeight=289&originWidth=718&originalType=url&ratio=1&rotation=0&showTitle=false&size=54257&status=done&style=none&taskId=ud29cf1ba-4234-4de8-aaab-55ab8089a0e&title=)
+![image.png](media/image-6.png)
 
 能正常听到声音<br />[<br />](https://blog.csdn.net/qq_41936799/article/details/119777000)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5665b7baf10f989e",
+        "id": "d93abd6d19fcecee",
         "type": "tabs",
         "children": [
           {
-            "id": "bc6ea4ff26692a52",
+            "id": "d6bfa7dcb0923f00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/载具同步.md",
+                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/载具同步.md",
+                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/载具同步.md",
+                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/载具同步.md"
+                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md"
               }
             }
           }
@@ -143,55 +143,56 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
   "active": "686972c9c75c20b2",
   "lastOpenFiles": [
-    "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
-    "编程/UE/功能模块/游戏相机/相机.md",
-    "编程/UE/功能模块/载具相关",
-    "编程/UE/功能模块/编译UE5执行脚本生成VS工程报错.md",
-    "编程/UE/功能模块/游戏相机/Image/相机视点调整.gif",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174232.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174229.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174044.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173950.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173945.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173942.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202175252.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202174706.png",
-    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202161848.png",
-    "编程/UE/功能模块/游戏相机/Image",
-    "编程/UE/功能模块/游戏相机",
-    "编程/UE/功能模块/手柄焦点.docx",
-    "编程/UE/功能模块/游戏坠落机制.md",
-    "ActorFadingProp.md",
-    "编程/UE/功能模块/CameraModeStack.md",
-    "CameraModeStack.md",
-    "eraModeStack.md",
-    "^相机模式栈结构.md",
-    "编程/UE/功能模块/Image",
-    "编程/UE/功能模块/载具相关/载具同步.md",
-    "入门使用手册.md",
-    "个人文件/不重要密码.md",
-    "游戏/AHK.md",
-    "游戏",
-    "个人文件",
-    "编程/编码/Python.md",
-    "编程/编码/Wwise引擎.md",
-    "编程/编码/c++.md",
-    "编程/编码/UE 接口.md",
-    "编程/编码/不重要密码.md",
-    "编程/编码/Puerts.md",
-    "编程/编码",
-    "部分用法.md",
-    "编程/UE/功能模块/VS联编.md",
-    "编程/UE/功能模块/UE基于胶囊体移动的物理载具模拟.md",
-    "编程/UE/功能模块/UE 实现2D动画.md",
-    "相机.md",
+    "编程/UE/功能模块/特效相关/Niagara基础属性介绍.md",
+    "编程/UE/功能模块/特效相关/特效池(cascade).md",
+    "编程/UE/功能模块/特效相关/Image",
+    "编程/UE/功能模块/手柄相关/手柄焦点.md",
+    "编程/UE/功能模块/特效相关",
+    "编程/UE/功能模块/CommonUI.md",
+    "编程/UE/功能模块/Image/CommonUI/5de09cbeccdb0c671ff6a0e7cebc3e5b_MD5.pdf",
+    "编程/UE/功能模块/Image/CommonUI",
+    "编程/UE/功能模块/Commandlet vs调试方式.md",
+    "编程/UE/功能模块/SQLite3接入UE.md",
     "编程/UE/功能模块/TextureStreaming.md",
-    "编程/UE/功能模块",
-    "Image/格式工厂混流 LL_80.496+星球重启 1.mp4"
+    "编程/UE/功能模块/UE 实现2D动画.md",
+    "编程/UE/功能模块/UE5 精准打击.md",
+    "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
+    "编程/UE/功能模块/VS联编.md",
+    "编程/UE/功能模块/Image/VS联编/25fae81f557d96270ce9cc1ccc77070f_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/f164ce096df386d1f4f7425b979298d4_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/eeb1ffbff5ce09fa06c63a270b347508_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/c21d6356baee550fc9712d6ecf4f1e17_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/c8f6824c07ee9c11faa26bd19e300744_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/1e82dbb91012d2984e1a031302281c8f_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/abc9fb74940d9317f0467d7273bb1664_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/aa631ec4576e6b34887aa28e2e571b49_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/e340705e725c5681cdb6892c86fd88a4_MD5.png",
+    "编程/UE/功能模块/Image/VS联编/7ac64ab4cf5854bde6d00c04599a8355_MD5.png",
+    "编程/UE/功能模块/Image/VS联编",
+    "编程/UE/功能模块/载具相关/Image/UE基于胶囊体移动的物理载具模拟",
+    "编程/UE/功能模块/Image/UE5 精准打击",
+    "编程/UE/功能模块/Image/UE 实现2D动画",
+    "编程/UE/功能模块/Image/TextureStreaming",
+    "编程/UE/功能模块/Image/SQLite3接入UE",
+    "编程/UE/功能模块/游戏坠落机制.md",
+    "编程/UE/功能模块/设置python环境变量.md",
+    "编程/UE/功能模块/角色动画相关.md",
+    "编程/UE/功能模块/编译UE5执行脚本生成VS工程报错.md",
+    "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
+    "编程/UE/功能模块/手柄相关/2222.md",
+    "编程/UE/功能模块/手柄相关/手柄焦点2.md",
+    "编程/UE/功能模块/手柄相关/手柄.md",
+    "Image/wps158.jpg.md",
+    "编程/UE/TEST.md",
+    "编程/UE/功能模块/载具相关/载具同步.md",
+    "编程/UE/功能模块/游戏相机/相机.md",
+    "ActorFadingProp.md",
+    "编程/UE/功能模块/CameraModeStack.md"
   ]
 }
