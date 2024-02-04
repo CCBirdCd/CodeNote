@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5b464488f88c91ab",
+        "id": "5665b7baf10f989e",
         "type": "tabs",
         "children": [
           {
-            "id": "f56b3bd877e71dea",
+            "id": "bc6ea4ff26692a52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "入门使用手册.md",
-                "mode": "preview",
+                "file": "编程/UE/功能模块/载具相关/载具同步.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "入门使用手册.md",
+                "file": "编程/UE/功能模块/载具相关/载具同步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "入门使用手册.md",
+                "file": "编程/UE/功能模块/载具相关/载具同步.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "入门使用手册.md"
+                "file": "编程/UE/功能模块/载具相关/载具同步.md"
               }
             }
           }
@@ -148,7 +148,35 @@
   },
   "active": "686972c9c75c20b2",
   "lastOpenFiles": [
+    "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
+    "编程/UE/功能模块/游戏相机/相机.md",
+    "编程/UE/功能模块/载具相关",
+    "编程/UE/功能模块/编译UE5执行脚本生成VS工程报错.md",
+    "编程/UE/功能模块/游戏相机/Image/相机视点调整.gif",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174232.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174229.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204174044.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173950.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173945.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240204173942.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202175252.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202174706.png",
+    "编程/UE/功能模块/游戏相机/Image/Pasted image 20240202161848.png",
+    "编程/UE/功能模块/游戏相机/Image",
+    "编程/UE/功能模块/游戏相机",
+    "编程/UE/功能模块/手柄焦点.docx",
+    "编程/UE/功能模块/游戏坠落机制.md",
+    "ActorFadingProp.md",
+    "编程/UE/功能模块/CameraModeStack.md",
+    "CameraModeStack.md",
+    "eraModeStack.md",
+    "^相机模式栈结构.md",
+    "编程/UE/功能模块/Image",
+    "编程/UE/功能模块/载具相关/载具同步.md",
+    "入门使用手册.md",
     "个人文件/不重要密码.md",
+    "游戏/AHK.md",
+    "游戏",
     "个人文件",
     "编程/编码/Python.md",
     "编程/编码/Wwise引擎.md",
@@ -161,31 +189,9 @@
     "编程/UE/功能模块/VS联编.md",
     "编程/UE/功能模块/UE基于胶囊体移动的物理载具模拟.md",
     "编程/UE/功能模块/UE 实现2D动画.md",
-    "编程/UE/功能模块/物理模拟载具制作规范.md",
-    "编程/UE/功能模块/载具同步.md",
-    "入门使用手册.md",
     "相机.md",
     "编程/UE/功能模块/TextureStreaming.md",
-    "编程/UE/功能模块/游戏坠落机制.md",
-    "编程/UE/功能模块/SQLite3接入UE.md",
-    "编程/UE/功能模块/UE5 精准打击.md",
-    "编程/UE/功能模块/Niagara基础属性介绍.md",
-    "编程/UE/功能模块/特效池(cascade).md",
-    "编程/UE/功能模块/设置python环境变量.md",
-    "编程/UE/功能模块/相机.md",
-    "编程/UE/功能模块/角色动画相关.md",
-    "编程/UE/功能模块/CommonUI.md",
-    "编程/UE/功能模块/Commandlet vs调试方式.md",
     "编程/UE/功能模块",
-    "Image/格式工厂混流 LL_80.496+星球重启 1.mp4",
-    "Image/1706843919407 1.mp4",
-    "Image/1706841994406 1.mp4",
-    "Image/格式工厂混流 LL_80.496+星球重启.mp4",
-    "Image/1706843919407.mp4",
-    "Image/1706841994406.mp4",
-    "Image/Pasted image 20240202101149.png",
-    "Image/Pasted image 20240201205830.png",
-    "Image",
-    "Pasted image 20240201205517.png"
+    "Image/格式工厂混流 LL_80.496+星球重启 1.mp4"
   ]
 }

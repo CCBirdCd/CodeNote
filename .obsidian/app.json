@@ -1,3 +1,11 @@
 {
-  "attachmentFolderPath": "./Image"
+  "attachmentFolderPath": "./Image",
+  "readableLineLength": false,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "newFileFolderPath": "LinkPath"
 }
