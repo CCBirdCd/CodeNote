@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d93abd6d19fcecee",
+        "id": "a166784fdfc1136b",
         "type": "tabs",
         "children": [
           {
-            "id": "d6bfa7dcb0923f00",
+            "id": "d79b90ae53484aa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
+                "file": "编程/UE/功能模块/工具开发/入门之插件介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
+                "file": "编程/UE/功能模块/工具开发/入门之插件介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
+                "file": "编程/UE/功能模块/工具开发/入门之插件介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md"
+                "file": "编程/UE/功能模块/工具开发/入门之插件介绍.md"
               }
             }
           }
@@ -144,55 +144,57 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "686972c9c75c20b2",
+  "active": "d79b90ae53484aa3",
   "lastOpenFiles": [
+    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/b214a20cb086121b759b4c4c74c6d02b_MD5.jpeg",
+    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205114742256.png",
+    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/5bfe1977aa1ad0aad7409dce7757fd52_MD5.jpeg",
+    "编程/UE/功能模块/工具开发/入门之插件介绍.md",
+    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205105716321.png",
+    "编程/UE/功能模块/工具开发/Image/入门之插件介绍",
+    "编程/UE/功能模块/工具开发/Image",
+    "编程/UE/功能模块/CommonUI.md",
+    "编程/UE/功能模块/工具开发",
+    "编程/UE/功能模块/手柄焦点.docx",
+    "编程/UE/功能模块/Image/CommonUI/5de09cbeccdb0c671ff6a0e7cebc3e5b_MD5.pdf",
+    "编程/UE/功能模块/载具相关/3333.md",
+    "编程/UE/功能模块/载具相关/Image/3333/image-20240205103942051.png",
+    "编程/UE/功能模块/载具相关/Image/3333",
+    "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
+    "编程/UE/功能模块/手柄相关/2222.md",
+    "编程/UE/功能模块/手柄相关/Image/2222/b58709a8f76a31b76f6876939488a228_MD5.jpeg",
+    "编程/UE/功能模块/手柄相关/Image/2222/image-20240204211326102.png",
+    "编程/UE/功能模块/手柄相关/Image/2222/image-20240204211310482.png",
+    "编程/UE/功能模块/手柄相关/Image/2222/bd23dbb9f8cd2b464f80567ee35da07e_MD5.jpeg",
+    "编程/UE/功能模块/手柄相关/Image/2222/image-20240204211236356.png",
+    "编程/UE/功能模块/手柄相关/Image/2222",
+    "编程/UE/功能模块/手柄相关/3333.md",
+    "编程/UE/功能模块/手柄相关/Image/3333/92c9d75013a7bee175a0b76f806349a5_MD5.jpeg",
+    "编程/UE/功能模块/手柄相关/Image/3333",
+    "编程/UE/功能模块/载具相关/载具同步.md",
+    "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
     "编程/UE/功能模块/特效相关/Niagara基础属性介绍.md",
     "编程/UE/功能模块/特效相关/特效池(cascade).md",
     "编程/UE/功能模块/特效相关/Image",
     "编程/UE/功能模块/手柄相关/手柄焦点.md",
     "编程/UE/功能模块/特效相关",
-    "编程/UE/功能模块/CommonUI.md",
-    "编程/UE/功能模块/Image/CommonUI/5de09cbeccdb0c671ff6a0e7cebc3e5b_MD5.pdf",
-    "编程/UE/功能模块/Image/CommonUI",
     "编程/UE/功能模块/Commandlet vs调试方式.md",
     "编程/UE/功能模块/SQLite3接入UE.md",
     "编程/UE/功能模块/TextureStreaming.md",
     "编程/UE/功能模块/UE 实现2D动画.md",
     "编程/UE/功能模块/UE5 精准打击.md",
-    "编程/UE/功能模块/载具相关/UE基于胶囊体移动的物理载具模拟.md",
     "编程/UE/功能模块/VS联编.md",
-    "编程/UE/功能模块/Image/VS联编/25fae81f557d96270ce9cc1ccc77070f_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/f164ce096df386d1f4f7425b979298d4_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/eeb1ffbff5ce09fa06c63a270b347508_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/c21d6356baee550fc9712d6ecf4f1e17_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/c8f6824c07ee9c11faa26bd19e300744_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/1e82dbb91012d2984e1a031302281c8f_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/abc9fb74940d9317f0467d7273bb1664_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/aa631ec4576e6b34887aa28e2e571b49_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/e340705e725c5681cdb6892c86fd88a4_MD5.png",
-    "编程/UE/功能模块/Image/VS联编/7ac64ab4cf5854bde6d00c04599a8355_MD5.png",
-    "编程/UE/功能模块/Image/VS联编",
-    "编程/UE/功能模块/载具相关/Image/UE基于胶囊体移动的物理载具模拟",
-    "编程/UE/功能模块/Image/UE5 精准打击",
-    "编程/UE/功能模块/Image/UE 实现2D动画",
-    "编程/UE/功能模块/Image/TextureStreaming",
-    "编程/UE/功能模块/Image/SQLite3接入UE",
     "编程/UE/功能模块/游戏坠落机制.md",
     "编程/UE/功能模块/设置python环境变量.md",
     "编程/UE/功能模块/角色动画相关.md",
     "编程/UE/功能模块/编译UE5执行脚本生成VS工程报错.md",
-    "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
-    "编程/UE/功能模块/手柄相关/2222.md",
     "编程/UE/功能模块/手柄相关/手柄焦点2.md",
     "编程/UE/功能模块/手柄相关/手柄.md",
     "Image/wps158.jpg.md",
-    "编程/UE/TEST.md",
-    "编程/UE/功能模块/载具相关/载具同步.md",
-    "编程/UE/功能模块/游戏相机/相机.md",
-    "ActorFadingProp.md",
-    "编程/UE/功能模块/CameraModeStack.md"
+    "编程/UE/TEST.md"
   ]
 }
