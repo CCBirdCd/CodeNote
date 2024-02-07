@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/UE/功能模块/工具开发/插件介绍.md",
-                "mode": "source",
+                "file": "编程/UE/UPROPERTY 介绍.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "16909c509c0b6149",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程/UE/功能模块/工具开发/插件介绍.md",
+                "file": "编程/UE/UPROPERTY 介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程/UE/功能模块/工具开发/插件介绍.md",
+                "file": "编程/UE/UPROPERTY 介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/UE/功能模块/工具开发/插件介绍.md"
+                "file": "编程/UE/UPROPERTY 介绍.md"
               }
             }
           }
@@ -150,19 +151,23 @@
   },
   "active": "d906806ff208ee19",
   "lastOpenFiles": [
-    "编程/UE/功能模块/工具开发/一些代码写法.md",
+    "编程/UE/Image/UPROPERTY 介绍/1ea30e2194fe96fd0b09af9639f5fed5_MD5.jpeg",
+    "编程/UE/Image/UPROPERTY 介绍/image-20240207160154519.png",
+    "编程/UE/Image/UPROPERTY 介绍/eeaaf09c341bcb02164ccc57f090516e_MD5.gif",
+    "编程/UE/Image/UPROPERTY 介绍/d652aa8ebc37de847be0fd8d39a660c5_MD5.gif",
+    "编程/UE/Image/UPROPERTY 介绍/aaa1f5e736f1ce570a8f932e4a5064f6_MD5.jpeg",
+    "编程/UE/Image/UPROPERTY 介绍/image-20240207153948777.png",
+    "编程/UE/Image/UPROPERTY 介绍/c70ca875436312ec67565b948b443556_MD5.jpeg",
+    "编程/UE/Image/UPROPERTY 介绍/240f2a210f48486aa73dfa1a880c52f5_MD5.jpeg",
+    "编程/UE/Image/UPROPERTY 介绍/image-20240207152610132.png",
+    "编程/UE/Image/UPROPERTY 介绍/image-20240207152604721.png",
+    "编程/UE/Image/UPROPERTY 介绍/e3a6c26e98fd3ad7a30a495f9bea08c8_MD5.jpeg",
+    "编程/UE/UPROPERTY 介绍.md",
+    "编程/UE/Image/UPROPERTY 介绍",
+    "编程/UE/Image",
     "编程/UE/功能模块/工具开发/插件介绍.md",
-    "编程/UE/功能模块/工具开发/Image/插件介绍/e1f4b570e3a738af737e3665196205b7_MD5.jpeg",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205204415239.png",
-    "编程/UE/功能模块/工具开发/Image/插件介绍/64573ccf384af509fe8b79a6de698a2a_MD5.jpeg",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205203816034.png",
+    "编程/UE/功能模块/工具开发/一些代码写法.md",
     "编程/UE/功能模块/CommonUI.md",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/86ecc00ccdda71c68e1eedad7afc132f_MD5.jpeg",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205202053925.png",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205202047427.png",
-    "编程/UE/功能模块/工具开发/Image/插件介绍/a72eb93bb6c390bb1a11ffaa2214c8ba_MD5.jpeg",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205145047983.png",
-    "编程/UE/功能模块/工具开发/Image/入门之插件介绍/image-20240205145033622.png",
     "编程/UE/功能模块/工具开发/Image/插件介绍",
     "编程/UE/功能模块/工具开发/Image",
     "编程/UE/功能模块/工具开发",
@@ -179,9 +184,7 @@
     "编程/UE/功能模块/载具相关/物理模拟载具制作规范.md",
     "编程/UE/功能模块/特效相关/Niagara基础属性介绍.md",
     "编程/UE/功能模块/特效相关/特效池(cascade).md",
-    "编程/UE/功能模块/特效相关/Image",
     "编程/UE/功能模块/手柄相关/手柄焦点.md",
-    "编程/UE/功能模块/特效相关",
     "编程/UE/功能模块/Commandlet vs调试方式.md",
     "编程/UE/功能模块/SQLite3接入UE.md",
     "编程/UE/功能模块/TextureStreaming.md",
@@ -193,8 +196,6 @@
     "编程/UE/功能模块/角色动画相关.md",
     "编程/UE/功能模块/编译UE5执行脚本生成VS工程报错.md",
     "编程/UE/功能模块/手柄相关/手柄焦点2.md",
-    "编程/UE/功能模块/手柄相关/手柄.md",
-    "Image/wps158.jpg.md",
-    "编程/UE/TEST.md"
+    "编程/UE/功能模块/手柄相关/手柄.md"
   ]
 }
